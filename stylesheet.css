@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.header {
+    /* border: 2px rgb(0, 238, 255) solid; */
+    height: 100px;
+}
+
+.logo {
+    display: inline-block;
+    /* border: 2px yellow solid; */
+    height: 100px;
+    margin: 0px 0 0 150px;
+    width: 320px;
+}
+
+.logo h1 {
+    text-align: center;
+    text-align: left;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    float: left;
+    padding: 4px 0 0 0;
+}
+
+.navbar {
+    /* border: 2px rgb(0, 255, 0) solid; */
+    height: 100px;
+    float: right;
+    width: 750px;
+    margin: 0 150px 0 0;
+}
+
+.navbar ul {
+    margin: 30px 0 0 26px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #FDB77B;
+    margin: 0 110px 0 0;
+    font-size: 1.25rem;
+}
+
+.navbar ul a:hover {
+    text-decoration: none;
+    color: #5A6986;
+    margin: 0 110px 0 0;
+    font-size: 1.25rem;
+}
+
+.active {
+    text-decoration: none;
+    color: #5A6986;
+    margin: 0 110px 0 0;
+    font-size: 1.25rem;
+}
+
+
+/* MAIN NAVIGATION STYLING STARTS HERE */
+
+.main-content {
+    height: 600px;
+    border: black 2px solid;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/food1.jpeg);
+}
+
+.content-bg {
+    display: inline-block;
+    padding: 160px 0px;
+}
+
+.content-bg h1 {
+    color: #FDB77B;
+    font-size: 3rem;
+}
+
+.content-bg h3 {
+    color: #fff;
+}
+
+.content-bg h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+/* about section styling */
+
+.about {
+    height: 600px;
+    /* border: greenyellow 2px solid; */
+    padding: 200px 200px;
+}
+
+.about-desc {
+    float: left;
+    /* border: yellow 2px solid; */
+    height: 800px;
+    width: 700px;
+    overflow: hidden;
+}
+
+.about-desc h1,
+h2 {
+    color: #ffab61;
+}
+
+.about-desc p {
+    font-size: 1.3rem;
+    margin: 20px 0 0 0;
+}
+
+.about-img {
+    float: left;
+    /* border: palevioletred 2px solid; */
+    height: 650px;
+    margin: 30px 0 0 200px;
+}
+
+.about-img img {
+    width: 500px;
+}
+
+
+/* gallery section starts here */
+
+.gallery {
+    /* border: yellowgreen 2px solid; */
+    height: 1200px;
+    padding: 0 200px;
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+.gallery h3 {
+    margin: 45px 0 0 0;
+    font-size: 2.8rem;
+    color: #ffab61;
+}
+
+.hr1 {
+    border: none;
+    border-top: 5px #ffab61 solid;
+    width: 200px;
+    margin: auto;
+}
+
+.image-gallery,
+.row-image,
+.img3 {
+    margin: 0;
+    /* border: yellowgreen 2px solid; */
+    height: auto;
+}
+
+.image-gallery {
+    margin: 40px 0 0 0;
+}
+
+.row-image {
+    height: 400px;
+    margin: 0 0 0 66px;
+}
+
+.img3 {
+    float: left;
+    height: 400px;
+    margin: 0 71px 0 0;
+}
+
+.img3 img {
+    width: 400px;
+}
+
+.img3 h4 {
+    color: #ffab61;
+    font-size: 1.4rem;
+}
+
+.img2 {
+    float: left;
+    height: 600px;
+    padding: 0 0 0 30px;
+}
+
+.img2 img {
+    padding: 0 0;
+    width: 700px;
+}
+
+
+/* contact us styling starts here */
+
+.contact {
+    border: lawngreen 2px solid;
+    height: 600px;
+}
+
+.contact h3 {
+    margin: 45px 0 0 0;
+    font-size: 2.8rem;
+    color: #ffab61;
+    text-align: center;
+}
+
+.form {
+    height: 400px;
+}
+
+.infomap,
+.address,
+.timings,
+.map {
+    height: 200px;
+}
+
+.main-form {
+    border: lawngreen 2px solid;
+    margin: 20px 400px;
+    height: 300px;
+    position: relative;
+}
+
+.inner {
+    float: left;
+}
+
+.message {
+    float: right;
+}
+
+.main-form button {
+    position: absolute;
+    top: 100px;
+}
